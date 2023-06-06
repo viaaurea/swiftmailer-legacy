@@ -5,6 +5,12 @@ maintained by [Via Aurea](https://www.viaaurea.cz)
 updated to work on PHP 8.2 and possibly future versions
 without any deprecation warnings or compatibility issues.
 
+Installation:
+```
+composer require viaaurea/swiftmailer-legacy -W
+```
+
+
 Legacy port development notes [here](port.md).
 
 
