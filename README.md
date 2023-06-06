@@ -1,9 +1,9 @@
 # Swift Mailer Legacy
 
 This is a fork of legacy [swiftmailer/swiftmailer](https://github.com/swiftmailer/swiftmailer)
-maintained by [Via Aurea](https://www.viaaurea.cz)
-updated to work on PHP 8.2 and possibly future versions
-without any deprecation warnings or compatibility issues.
+updated to run on **PHP 8.2** and possibly future versions
+without any deprecation warnings or compatibility issues,
+maintained by [Via Aurea](https://www.viaaurea.cz).
 
 Installation:
 ```
