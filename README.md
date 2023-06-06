@@ -1,7 +1,20 @@
-Swift Mailer
-------------
+# Swift Mailer Legacy
 
-**Swiftmailer will stop being maintained at the end of November 2021.**
+This is a fork of legacy [swiftmailer/swiftmailer](https://github.com/swiftmailer/swiftmailer)
+maintained by [Via Aurea](https://www.viaaurea.cz)
+updated to work on PHP 8.2 and possibly future versions
+without any deprecation warnings or compatibility issues.
+
+Legacy port development notes [here](port.md).
+
+
+---
+
+
+## Swift Mailer
+
+
+**The original Swiftmailer stopped being maintained at the end of November 2021.**
 
 Please, move to [Symfony Mailer](https://symfony.com/doc/current/mailer.html) at your earliest convenience.
 [Symfony Mailer](https://symfony.com/doc/current/mailer.html) is the next evolution of Swiftmailer.
@@ -15,11 +28,3 @@ to use in complex web application with a great deal of flexibility.
 
 For full details on usage, read the [documentation](https://swiftmailer.symfony.com/docs/introduction.html).
 
-Sponsors
---------
-
-<div>
-    <a href="https://blackfire.io/docs/introduction?utm_source=swiftmailer&utm_medium=github_readme&utm_campaign=logo">
-        <img src="https://static.blackfire.io/assets/intemporals/logo/png/blackfire-io_secondary_horizontal_transparent.png?1" width="255px" alt="Blackfire.io">
-    </a>
-</div>
