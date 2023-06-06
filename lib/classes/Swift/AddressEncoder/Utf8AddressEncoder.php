@@ -24,6 +24,7 @@
  *
  * @author Christian Schmidt
  */
+#[AllowDynamicProperties]
 class Swift_AddressEncoder_Utf8AddressEncoder implements Swift_AddressEncoder
 {
     /**

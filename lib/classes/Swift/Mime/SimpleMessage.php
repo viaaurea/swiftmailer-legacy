@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_SimpleMessage extends Swift_Mime_MimePart
 {
     const PRIORITY_HIGHEST = 1;

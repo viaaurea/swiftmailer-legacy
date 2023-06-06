@@ -13,6 +13,7 @@
  *
  * @author     Xavier De Cock <xdecock@gmail.com>
  */
+#[AllowDynamicProperties]
 class Swift_Signers_DKIMSigner implements Swift_Signers_HeaderSigner
 {
     /**

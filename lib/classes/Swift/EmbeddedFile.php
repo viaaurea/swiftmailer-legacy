@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_EmbeddedFile extends Swift_Mime_EmbeddedFile
 {
     /**

@@ -15,6 +15,7 @@ use Egulias\EmailValidator\EmailValidator;
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_CharsetObserver
 {
     /** The HeaderEncoder used by these headers */

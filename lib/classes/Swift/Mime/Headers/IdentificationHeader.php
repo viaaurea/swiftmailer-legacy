@@ -17,6 +17,7 @@ use Egulias\EmailValidator\Validation\RFCValidation;
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_Headers_IdentificationHeader extends Swift_Mime_Headers_AbstractHeader
 {
     /**

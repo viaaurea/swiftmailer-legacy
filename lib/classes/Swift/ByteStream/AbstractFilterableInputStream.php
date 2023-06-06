@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 abstract class Swift_ByteStream_AbstractFilterableInputStream implements Swift_InputByteStream, Swift_Filterable
 {
     /**

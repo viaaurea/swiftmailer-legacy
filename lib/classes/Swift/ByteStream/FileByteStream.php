@@ -13,6 +13,7 @@
  *
  * @author     Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_ByteStream_FileByteStream extends Swift_ByteStream_AbstractFilterableInputStream implements Swift_FileStream
 {
     /** The internal pointer offset */

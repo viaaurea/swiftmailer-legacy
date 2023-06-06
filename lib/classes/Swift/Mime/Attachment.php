@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_Attachment extends Swift_Mime_SimpleMimeEntity
 {
     /** Recognized MIME types */

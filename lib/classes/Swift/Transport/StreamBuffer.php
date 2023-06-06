@@ -13,6 +13,7 @@
  *
  * @author     Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Transport_StreamBuffer extends Swift_ByteStream_AbstractFilterableInputStream implements Swift_Transport_IoBuffer
 {
     /** A primary socket */

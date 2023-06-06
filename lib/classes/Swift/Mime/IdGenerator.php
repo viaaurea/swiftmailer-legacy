@@ -11,6 +11,7 @@
 /**
  * Message ID generator.
  */
+#[AllowDynamicProperties]
 class Swift_Mime_IdGenerator implements Swift_IdGenerator
 {
     private $idRight;

@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Events_ResponseEvent extends Swift_Events_EventObject
 {
     /**

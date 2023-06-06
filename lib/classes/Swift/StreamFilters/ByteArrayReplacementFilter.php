@@ -15,6 +15,7 @@
  *
  * @author  Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_StreamFilters_ByteArrayReplacementFilter implements Swift_StreamFilter
 {
     /** The replacement(s) to make */

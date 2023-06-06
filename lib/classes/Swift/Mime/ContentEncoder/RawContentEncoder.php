@@ -17,6 +17,7 @@
  *
  * @author Sebastiaan Stok <s.stok@rollerscapes.net>
  */
+#[AllowDynamicProperties]
 class Swift_Mime_ContentEncoder_RawContentEncoder implements Swift_Mime_ContentEncoder
 {
     /**

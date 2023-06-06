@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_KeyCache_ArrayKeyCache implements Swift_KeyCache
 {
     /**

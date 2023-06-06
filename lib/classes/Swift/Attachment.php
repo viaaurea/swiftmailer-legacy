@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Attachment extends Swift_Mime_Attachment
 {
     /**

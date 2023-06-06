@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_RfcComplianceException extends Swift_SwiftException
 {
     /**

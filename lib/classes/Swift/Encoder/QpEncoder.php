@@ -15,6 +15,7 @@
  *
  * @author     Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Encoder_QpEncoder implements Swift_Encoder
 {
     /**

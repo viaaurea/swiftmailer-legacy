@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_StreamFilters_StringReplacementFilterFactory implements Swift_ReplacementFilterFactory
 {
     /** Lazy-loaded filters */

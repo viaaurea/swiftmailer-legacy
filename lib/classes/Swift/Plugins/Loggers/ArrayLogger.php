@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_Loggers_ArrayLogger implements Swift_Plugins_Logger
 {
     /**

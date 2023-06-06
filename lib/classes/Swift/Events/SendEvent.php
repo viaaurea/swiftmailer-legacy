@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Events_SendEvent extends Swift_Events_EventObject
 {
     /** Sending has yet to occur */

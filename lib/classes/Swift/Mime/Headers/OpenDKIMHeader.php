@@ -15,6 +15,7 @@
  *
  * @deprecated since SwiftMailer 6.1.0; use Swift_Signers_DKIMSigner instead.
  */
+#[AllowDynamicProperties]
 class Swift_Mime_Headers_OpenDKIMHeader implements Swift_Mime_Header
 {
     /**

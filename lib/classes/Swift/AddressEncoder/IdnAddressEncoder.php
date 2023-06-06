@@ -22,6 +22,7 @@
  *
  * @author Christian Schmidt
  */
+#[AllowDynamicProperties]
 class Swift_AddressEncoder_IdnAddressEncoder implements Swift_AddressEncoder
 {
     /**

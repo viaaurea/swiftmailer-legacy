@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_CharacterStream_ArrayCharacterStream implements Swift_CharacterStream
 {
     /** A map of byte values and their respective characters */

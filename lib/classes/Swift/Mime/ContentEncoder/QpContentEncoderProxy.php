@@ -15,6 +15,7 @@
  *
  * @author Jean-François Simon <jeanfrancois.simon@sensiolabs.com>
  */
+#[AllowDynamicProperties]
 class Swift_Mime_ContentEncoder_QpContentEncoderProxy implements Swift_Mime_ContentEncoder
 {
     /**

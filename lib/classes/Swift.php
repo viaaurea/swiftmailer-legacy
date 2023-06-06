@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 abstract class Swift
 {
     const VERSION = '6.3.0';

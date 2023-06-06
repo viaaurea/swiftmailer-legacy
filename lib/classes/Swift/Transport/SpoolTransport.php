@@ -13,6 +13,7 @@
  *
  * @author Fabien Potencier
  */
+#[AllowDynamicProperties]
 class Swift_Transport_SpoolTransport implements Swift_Transport
 {
     /** The spool instance */

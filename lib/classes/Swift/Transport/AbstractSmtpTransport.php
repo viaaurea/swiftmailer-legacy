@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 abstract class Swift_Transport_AbstractSmtpTransport implements Swift_Transport
 {
     /** Input-Output buffer for sending/receiving SMTP commands and responses */

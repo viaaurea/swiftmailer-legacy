@@ -14,6 +14,7 @@
  * @author Fabien Potencier
  * @author Xavier De Cock <xdecock@gmail.com>
  */
+#[AllowDynamicProperties]
 class Swift_FileSpool extends Swift_ConfigurableSpool
 {
     /** The spool directory */

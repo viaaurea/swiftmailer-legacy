@@ -11,6 +11,7 @@
 /**
  * @author Romain-Geissler
  */
+#[AllowDynamicProperties]
 class Swift_ByteStream_TemporaryFileByteStream extends Swift_ByteStream_FileByteStream
 {
     public function __construct()

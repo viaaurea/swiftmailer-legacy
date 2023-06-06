@@ -17,6 +17,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_ContentEncoder_PlainContentEncoder implements Swift_Mime_ContentEncoder
 {
     /**

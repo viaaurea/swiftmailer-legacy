@@ -13,6 +13,7 @@
  *
  * @author Arjen Brouwer
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_ImpersonatePlugin implements Swift_Events_SendListener
 {
     /**

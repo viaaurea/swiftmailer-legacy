@@ -14,6 +14,7 @@
  * @author Chris Corbyn
  * @author Xavier De Cock <xdecock@gmail.com>
  */
+#[AllowDynamicProperties]
 class Swift_CharacterReader_Utf8Reader implements Swift_CharacterReader
 {
     /** Pre-computed for optimization */

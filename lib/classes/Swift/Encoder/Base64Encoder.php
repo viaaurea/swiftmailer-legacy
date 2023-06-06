@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Encoder_Base64Encoder implements Swift_Encoder
 {
     /**

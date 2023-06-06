@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Transport_LoadBalancedTransport implements Swift_Transport
 {
     /**

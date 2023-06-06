@@ -15,6 +15,7 @@
  * @author Sebastiaan Stok <s.stok@rollerscapes.net>
  * @author Jan Flora <jf@penneo.com>
  */
+#[AllowDynamicProperties]
 class Swift_Signers_SMimeSigner implements Swift_Signers_BodySigner
 {
     protected $signCertificate;

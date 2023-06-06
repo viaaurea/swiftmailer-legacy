@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_Loggers_EchoLogger implements Swift_Plugins_Logger
 {
     /** Whether or not HTML should be output */

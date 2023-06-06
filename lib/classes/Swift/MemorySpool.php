@@ -13,6 +13,7 @@
  *
  * @author Fabien Potencier
  */
+#[AllowDynamicProperties]
 class Swift_MemorySpool implements Swift_Spool
 {
     protected $messages = [];

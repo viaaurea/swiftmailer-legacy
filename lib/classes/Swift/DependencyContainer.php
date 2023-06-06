@@ -13,6 +13,7 @@
  *
  * @author  Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_DependencyContainer
 {
     /** Constant for literal value types */

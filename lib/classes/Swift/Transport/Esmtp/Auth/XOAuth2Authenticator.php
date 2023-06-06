@@ -23,6 +23,7 @@
  *
  * @see        https://developers.google.com/google-apps/gmail/xoauth2_protocol
  */
+#[AllowDynamicProperties]
 class Swift_Transport_Esmtp_Auth_XOAuth2Authenticator implements Swift_Transport_Esmtp_Authenticator
 {
     /**

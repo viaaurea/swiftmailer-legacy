@@ -13,6 +13,7 @@
  *
  * @author     Xavier De Cock <xdecock@gmail.com>
  */
+#[AllowDynamicProperties]
 class Swift_CharacterStream_NgCharacterStream implements Swift_CharacterStream
 {
     /**

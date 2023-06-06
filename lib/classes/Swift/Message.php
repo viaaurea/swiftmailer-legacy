@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Message extends Swift_Mime_SimpleMessage
 {
     /**

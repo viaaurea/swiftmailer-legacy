@@ -15,6 +15,7 @@
  *
  * @author     Ward Peeters <ward@coding-tech.com>
  */
+#[AllowDynamicProperties]
 class Swift_Transport_Esmtp_Auth_NTLMAuthenticator implements Swift_Transport_Esmtp_Authenticator
 {
     const NTLMSIG = "NTLMSSP\x00";

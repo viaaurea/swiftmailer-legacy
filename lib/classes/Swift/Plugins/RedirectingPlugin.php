@@ -13,6 +13,7 @@
  *
  * @author     Fabien Potencier
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_RedirectingPlugin implements Swift_Events_SendListener
 {
     /**

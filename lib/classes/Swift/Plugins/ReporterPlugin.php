@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_ReporterPlugin implements Swift_Events_SendListener
 {
     /**

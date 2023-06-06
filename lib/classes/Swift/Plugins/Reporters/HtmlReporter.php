@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_Reporters_HtmlReporter implements Swift_Plugins_Reporter
 {
     /**

@@ -17,6 +17,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Transport_SendmailTransport extends Swift_Transport_AbstractSmtpTransport
 {
     /**

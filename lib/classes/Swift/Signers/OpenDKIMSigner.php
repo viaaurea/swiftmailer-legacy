@@ -16,6 +16,7 @@
  *
  * @deprecated since SwiftMailer 6.1.0; use Swift_Signers_DKIMSigner instead.
  */
+#[AllowDynamicProperties]
 class Swift_Signers_OpenDKIMSigner extends Swift_Signers_DKIMSigner
 {
     private $peclLoaded = false;

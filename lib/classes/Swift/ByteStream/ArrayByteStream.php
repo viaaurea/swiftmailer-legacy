@@ -13,6 +13,7 @@
  *
  * @author     Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_ByteStream_ArrayByteStream implements Swift_InputByteStream, Swift_OutputByteStream
 {
     /**

@@ -20,6 +20,7 @@
  *
  * @author Christian Schmidt
  */
+#[AllowDynamicProperties]
 class Swift_Transport_Esmtp_EightBitMimeHandler implements Swift_Transport_EsmtpHandler
 {
     protected $encoding;

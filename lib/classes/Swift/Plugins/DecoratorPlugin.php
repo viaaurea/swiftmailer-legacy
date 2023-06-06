@@ -14,6 +14,7 @@
  * @author Chris Corbyn
  * @author Fabien Potencier
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_DecoratorPlugin implements Swift_Events_SendListener, Swift_Plugins_Decorator_Replacements
 {
     /** The replacement map */

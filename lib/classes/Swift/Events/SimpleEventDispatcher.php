@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Events_SimpleEventDispatcher implements Swift_Events_EventDispatcher
 {
     /** A map of event types to their associated listener types */

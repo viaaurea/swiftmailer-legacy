@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_MimePart extends Swift_Mime_SimpleMimeEntity
 {
     /** The format parameter last specified by the user */

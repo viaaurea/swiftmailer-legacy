@@ -20,6 +20,7 @@
  * @method Swift_SmtpTransport setAuthMode(string $mode)     Set the auth mode to use to authenticate.
  * @method string              getAuthMode()                 Get the auth mode to use to authenticate.
  */
+#[AllowDynamicProperties]
 class Swift_SmtpTransport extends Swift_Transport_EsmtpTransport
 {
     /**

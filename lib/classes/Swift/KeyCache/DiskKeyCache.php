@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_KeyCache_DiskKeyCache implements Swift_KeyCache
 {
     /** Signal to place pointer at start of file */

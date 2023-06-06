@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_SimpleHeaderSet implements Swift_Mime_CharsetObserver
 {
     /** HeaderFactory */

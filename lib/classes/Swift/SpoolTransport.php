@@ -13,6 +13,7 @@
  *
  * @author Fabien Potencier
  */
+#[AllowDynamicProperties]
 class Swift_SpoolTransport extends Swift_Transport_SpoolTransport
 {
     /**

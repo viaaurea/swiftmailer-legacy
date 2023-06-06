@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Events_TransportExceptionEvent extends Swift_Events_EventObject
 {
     /**

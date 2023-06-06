@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Plugins_Pop_Pop3Exception extends Swift_IoException
 {
     /**

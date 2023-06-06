@@ -13,6 +13,7 @@
  *
  * @author     Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_ContentEncoder_QpContentEncoder extends Swift_Encoder_QpEncoder implements Swift_Mime_ContentEncoder
 {
     protected $dotEscape;

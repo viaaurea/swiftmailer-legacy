@@ -13,6 +13,7 @@
  *
  * @author Fabien Potencier
  */
+#[AllowDynamicProperties]
 class Swift_Transport_NullTransport implements Swift_Transport
 {
     /** The event dispatcher from the plugin API */

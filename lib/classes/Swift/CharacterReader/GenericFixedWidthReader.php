@@ -14,6 +14,7 @@
  * @author     Chris Corbyn
  * @author     Xavier De Cock <xdecock@gmail.com>
  */
+#[AllowDynamicProperties]
 class Swift_CharacterReader_GenericFixedWidthReader implements Swift_CharacterReader
 {
     /**

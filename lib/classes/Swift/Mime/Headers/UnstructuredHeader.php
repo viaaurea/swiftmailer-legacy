@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mime_Headers_UnstructuredHeader extends Swift_Mime_Headers_AbstractHeader
 {
     /**

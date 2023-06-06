@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_CharacterReader_UsAsciiReader implements Swift_CharacterReader
 {
     /**

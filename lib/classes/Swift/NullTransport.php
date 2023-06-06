@@ -13,6 +13,7 @@
  *
  * @author Fabien Potencier
  */
+#[AllowDynamicProperties]
 class Swift_NullTransport extends Swift_Transport_NullTransport
 {
     public function __construct()

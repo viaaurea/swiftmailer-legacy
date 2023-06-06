@@ -21,6 +21,7 @@
  *
  * @author Christian Schmidt
  */
+#[AllowDynamicProperties]
 class Swift_Transport_Esmtp_SmtpUtf8Handler implements Swift_Transport_EsmtpHandler
 {
     public function __construct()

@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_MimePart extends Swift_Mime_MimePart
 {
     /**

@@ -14,6 +14,7 @@
  *
  * @author Jan Flora <jf@penneo.com>
  */
+#[AllowDynamicProperties]
 class Swift_Mime_ContentEncoder_NullContentEncoder implements Swift_Mime_ContentEncoder
 {
     /**

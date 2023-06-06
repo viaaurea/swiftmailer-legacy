@@ -13,6 +13,7 @@
  *
  * @author Fabien Potencier
  */
+#[AllowDynamicProperties]
 abstract class Swift_ConfigurableSpool implements Swift_Spool
 {
     /** The maximum number of messages to send per flush */

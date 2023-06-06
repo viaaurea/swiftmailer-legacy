@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Mailer_ArrayRecipientIterator implements Swift_Mailer_RecipientIterator
 {
     /**

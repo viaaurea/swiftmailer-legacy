@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_StreamFilters_StringReplacementFilter implements Swift_StreamFilter
 {
     /** The needle(s) to search for */

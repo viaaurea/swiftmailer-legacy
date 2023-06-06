@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_Encoder_Rfc2231Encoder implements Swift_Encoder
 {
     /**

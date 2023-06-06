@@ -13,6 +13,7 @@
  *
  * @author Lars Strojny
  */
+#[AllowDynamicProperties]
 class Swift_Mime_ContentEncoder_NativeQpContentEncoder implements Swift_Mime_ContentEncoder
 {
     /**

@@ -14,6 +14,7 @@
  *
  * @author Christian Schmidt
  */
+#[AllowDynamicProperties]
 class Swift_AddressEncoderException extends Swift_RfcComplianceException
 {
     protected $address;

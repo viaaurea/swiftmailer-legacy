@@ -13,6 +13,7 @@
  *
  * @author Chris Corbyn
  */
+#[AllowDynamicProperties]
 class Swift_SendmailTransport extends Swift_Transport_SendmailTransport
 {
     /**
