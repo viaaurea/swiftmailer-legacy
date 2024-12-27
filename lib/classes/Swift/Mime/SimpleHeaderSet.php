@@ -77,7 +77,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_CharsetObserver
      *
      * @param string $name
      */
-    public function addDateHeader($name, DateTimeInterface $dateTime = null)
+    public function addDateHeader($name, ?DateTimeInterface $dateTime = null)
     {
         $this->storeHeader($name, $this->factory->createDateHeader($name, $dateTime));
     }
